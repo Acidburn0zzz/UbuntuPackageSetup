@@ -8,5 +8,5 @@ sudo apt-get update
 sudo apt-get install mkusb mkusb-nox usb-pack-efi pv
 wget http://releases.ubuntu.com/16.04.3/ubuntu-16.04.3-desktop-amd64.iso
 
-# important, make sure /dev/sdb is actually the usb drive otherwise you will clobber whatever is on it
-sudo mkusb-nox ubuntu-16.04.3-desktop-amd64.iso
+echo "select gpt (not msdos), usb-pack-efi (not iso)"
+sudo -H mkusb-11 ubuntu-16.04.3-desktop-amd64.iso -p
