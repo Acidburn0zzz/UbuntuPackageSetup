@@ -16,5 +16,5 @@ npm install --save web3@0.20.4
 
 # contracts
 git clone https://github.com/RightMesh/TokenGeneratingContracts
-cd TokenGeneratingContracts
+cd TokenGeneratingContracts/rightmesh
 npm install
