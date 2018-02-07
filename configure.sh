@@ -8,7 +8,9 @@ sudo apt-get install ethereum
 
 # npm, node
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
-source ~/.bashrc
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 nvm install 8.7.0
 npm install --save web3@0.20.4
 
