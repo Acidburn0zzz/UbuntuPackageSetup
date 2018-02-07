@@ -8,4 +8,7 @@ sudo apt-get install ethereum
 
 # npm, node
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
+source ~/.bashrc
+nvm install 8.7.0
+npm install --save web3@0.20.4
 
