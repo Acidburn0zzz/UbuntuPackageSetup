@@ -14,3 +14,7 @@ export NVM_DIR="$HOME/.nvm"
 nvm install 8.7.0
 npm install --save web3@0.20.4
 
+# contracts
+git clone https://github.com/RightMesh/TokenGeneratingContracts
+cd TokenGeneratingContracts
+npm install
